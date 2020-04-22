@@ -346,7 +346,7 @@ int main(int argc, char **argv){
   
      switch (argc){  
 case 1:  
-    printf("New puzzle:\n");
+    printf("New sudoku:\n");
     g = sudoku_read();
     fprintf(stderr,"Puzzle:\n");    
     sudoku_print(stderr,g);
