@@ -1,2 +1,2 @@
-# This is a sudoku puzzle and generator , implemented by me
+# This is a sudoku puzzle and generator.
 
