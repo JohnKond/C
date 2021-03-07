@@ -1,18 +1,10 @@
-Compile files using makefile ,with command:
->make sudoku
+**This is a sudoku solver and generator. **
+
+Sudoku :  (originally called Number Place) is a logic-based, combinatorial <br>
+number-placement puzzle. In classic sudoku, the objective is to fill a 9×9 grid <br>
+with digits so that each column, each row, and each of the nine 3×3 subgrids that <br>
+compose the grid (also called "boxes", "blocks", or "regions") contain all of the <br>
+digits from 1 to 9. The puzzle setter provides a partially completed grid, which <br> 
+for a well-posed puzzle has a single solution. 
 
 
-Executions: 
-
->./sudoku
-Reads a new puzzle from input and solves it (if correct).
-
->./sudoku -c
-Reads a new puzzle from input and checks if is correct or not.
-
->./sudoku -g nelts
-Generates a new puzzle with nelts/81 numbers on the grid.
-e.g ./sudoku - g 50 , generates a new puzzle with 50 numbers on the grid.
-
->./sudoku -g nelts -u
-Generates a new puzzle with nelts/81 numbers on the grid. This puzzle has unique solution(no backtracking need).
